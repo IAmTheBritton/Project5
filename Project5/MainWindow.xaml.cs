@@ -29,8 +29,6 @@ namespace Project5
 
         private void openButtonClick(object sender, RoutedEventArgs e)
         {
-            Polygon tempPoly = new Polygon();
-            Polyline tempLine = new Polyline();
             Point tempPoint = new Point();
             Ellipse tempElip = new Ellipse();
             tempElip.Width = 10;
@@ -48,6 +46,7 @@ namespace Project5
                         if (line[0] == "polygon")
                         {
 
+                            Polygon tempPoly = new Polygon();
                             for (int i = 2; i < line.Length - 1; i+=2)
                             {
                                 tempPoly.Points.Add(new Point(Convert.ToDouble(line[i]), Convert.ToDouble(line[i + 1])));
@@ -56,21 +55,22 @@ namespace Project5
                                 tempPoly.Fill = new SolidColorBrush(Color.FromRgb(100, 255, 100));
                             else
                                 tempPoly.Fill = new SolidColorBrush(Color.FromRgb(100, 100, 255));
-                                //mapCanvas.Children.Add(tempPoly);
+                                mapCanvas.Children.Add(tempPoly);
                         }
                         else if (line[0] == "line")
                         {
+                            Polyline tempLine = new Polyline();
                             for (int i = 2; i < line.Length - 1; i += 2)
                             {
                                 tempLine.Points.Add(new Point(Convert.ToDouble(line[i]), Convert.ToDouble(line[i + 1])));
                             }
                             if (line[1] == "river")
-                                tempLine.Fill = new SolidColorBrush(Color.FromRgb(100, 100, 255));
+                                tempLine.Fill = new SolidColorBrush(Color.FromRgb(0, 0, 255));
                             else if (line[1] == "road")
-                                tempLine.Fill = new SolidColorBrush(Color.FromRgb(100, 100, 100));
+                                tempLine.Stroke = new SolidColorBrush(Color.FromRgb(100, 100, 100));
                             else
-                                tempLine.Fill = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-                            //mapCanvas.Children.Add(tempLine);
+                                tempLine.Stroke = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+                            mapCanvas.Children.Add(tempLine);
                         }
                         else
                         {

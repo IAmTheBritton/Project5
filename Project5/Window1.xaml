@@ -9,39 +9,25 @@
     <Grid>
         <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="269" VerticalAlignment="Top" Width="363">
             <TabItem x:Name="addRoad" Header="Road">
-                <Grid Background="#FFE5E5E5">
-                    <Button x:Name="button" Content="Apply" HorizontalAlignment="Left" Margin="272,211,0,0" VerticalAlignment="Top" Width="75"/>
-                </Grid>
+                <Grid Background="#FFE5E5E5"/>
             </TabItem>
             <TabItem x:Name="addBorder" Header="Border">
-                <Grid Background="#FFE5E5E5">
-                    <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="272,211,0,0" VerticalAlignment="Top" Width="75"/>
-                </Grid>
+                <Grid Background="#FFE5E5E5"/>
             </TabItem>
             <TabItem x:Name="addRiver" Header="River" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="54">
-                <Grid Background="#FFE5E5E5">
-                    <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="272,211,0,0" VerticalAlignment="Top" Width="75"/>
-                </Grid>
+                <Grid Background="#FFE5E5E5"/>
             </TabItem>
             <TabItem x:Name="addCity" Header="City" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="54">
-                <Grid Background="#FFE5E5E5">
-                    <Button x:Name="button3" Content="Apply" HorizontalAlignment="Left" Margin="272,211,0,0" VerticalAlignment="Top" Width="75"/>
-                </Grid>
+                <Grid Background="#FFE5E5E5"/>
             </TabItem>
             <TabItem x:Name="addMountain" Header="Mountain" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="54">
-                <Grid Background="#FFE5E5E5">
-                    <Button x:Name="button4" Content="Button" HorizontalAlignment="Left" Margin="272,211,0,0" VerticalAlignment="Top" Width="75"/>
-                </Grid>
+                <Grid Background="#FFE5E5E5"/>
             </TabItem>
             <TabItem x:Name="addLake" Header="Lake" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="54">
-                <Grid Background="#FFE5E5E5">
-                    <Button x:Name="button5" Content="Button" HorizontalAlignment="Left" Margin="272,211,0,0" VerticalAlignment="Top" Width="75"/>
-                </Grid>
+                <Grid Background="#FFE5E5E5"/>
             </TabItem>
             <TabItem x:Name="addLand" Header="Land" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="54">
-                <Grid Background="#FFE5E5E5">
-                    <Button x:Name="button6" Content="Button" HorizontalAlignment="Left" Margin="272,211,0,0" VerticalAlignment="Top" Width="75"/>
-                </Grid>
+                <Grid Background="#FFE5E5E5"/>
             </TabItem>
         </TabControl>
 

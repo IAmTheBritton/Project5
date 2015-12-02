@@ -119,5 +119,11 @@ namespace Project5
                 }
             }
         }
+
+        private void addClick(object sender, RoutedEventArgs e)
+        {
+            Window1 addWindow = new Window1();
+            addWindow.Show();
+        }
     }
 }

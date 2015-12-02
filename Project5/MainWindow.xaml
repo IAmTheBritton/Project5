@@ -8,7 +8,7 @@
         <Button x:Name="saveButton" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="907,10,0,0"/>
         <ListBox x:Name="itemList" HorizontalAlignment="Left" Height="494" VerticalAlignment="Top" Width="155" Margin="827,35,0,0"/>
         <Button x:Name="removeButton" Content="Remove" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="907,534,0,0"/>
-        <Button x:Name="addButton" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="827,534,0,0" RenderTransformOrigin="-0.933,-2.5"/>
+        <Button x:Name="addButton" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="827,534,0,0" RenderTransformOrigin="-0.933,-2.5" Click="addClick"/>
 
     </Grid>
 </Window>

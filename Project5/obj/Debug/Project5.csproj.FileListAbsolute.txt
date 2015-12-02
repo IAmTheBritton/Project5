@@ -24,3 +24,19 @@ C:\Users\Britton\Documents\GitHub\Project5\Project5\obj\Debug\Project5_MarkupCom
 C:\Users\Britton\Documents\GitHub\Project5\Project5\obj\Debug\Project5.g.resources
 C:\Users\Britton\Documents\GitHub\Project5\Project5\obj\Debug\Project5.Properties.Resources.resources
 C:\Users\Britton\Documents\GitHub\Project5\Project5\obj\Debug\Project5.csproj.GenerateResource.Cache
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\bin\Debug\Project5.exe.config
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\Project5.exe
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\Project5.pdb
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\bin\Debug\Project5.exe
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\bin\Debug\Project5.pdb
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\Project5.csprojResolveAssemblyReference.cache
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\MainWindow.baml
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\MainWindow.g.cs
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\Window1.g.cs
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\App.g.cs
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\Project5_MarkupCompile.cache
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\Project5_MarkupCompile.lref
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\Window1.baml
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\Project5.g.resources
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\Project5.Properties.Resources.resources
+C:\Users\victo\Documents\Visual Studio 2015\Projects\Project5\Project5\obj\Debug\Project5.csproj.GenerateResource.Cache

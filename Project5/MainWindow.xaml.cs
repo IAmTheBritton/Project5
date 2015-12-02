@@ -22,6 +22,9 @@ namespace Project5
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<Polygon> polygonList = new List<Polygon>();
+        List<Polyline> polylineList = new List<Polyline>();
+        List<Ellipse> pointList = new List<Ellipse>();
         public MainWindow()
         {
             InitializeComponent();
@@ -52,6 +55,7 @@ namespace Project5
                                 tempPoly.Fill = new SolidColorBrush(Color.FromRgb(100, 255, 100));
                             else
                                 tempPoly.Fill = new SolidColorBrush(Color.FromRgb(100, 100, 255));
+                            polygonList.Add(tempPoly);
                                 mapCanvas.Children.Add(tempPoly);
                         }
                         else if (line[0] == "line")
@@ -67,6 +71,7 @@ namespace Project5
                                 tempLine.Stroke = new SolidColorBrush(Color.FromRgb(100, 100, 100));
                             else
                                 tempLine.Stroke = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+                            polylineList.Add(tempLine);
                             mapCanvas.Children.Add(tempLine);
                         }
                         else
@@ -81,9 +86,22 @@ namespace Project5
                                 tempElip.Fill = new SolidColorBrush(Color.FromRgb(0,0,0));
                             else
                                 tempElip.Fill = new SolidColorBrush(Color.FromRgb(150, 150, 0));
+                            pointList.Add(tempElip);
                             mapCanvas.Children.Add(tempElip);
                         }
-
+                        
+                    }
+                    foreach (var k in polygonList)
+                    {
+                        itemList.Items.Add(1);
+                    }
+                    foreach (var k in polylineList)
+                    {
+                        itemList.Items.Add(2);
+                    }
+                    foreach (var k in pointList)
+                    {
+                        itemList.Items.Add(3);
                     }
                 }
                 catch (IOException i)

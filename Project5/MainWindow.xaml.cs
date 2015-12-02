@@ -29,10 +29,7 @@ namespace Project5
 
         private void openButtonClick(object sender, RoutedEventArgs e)
         {
-            Point tempPoint = new Point();
-            Ellipse tempElip = new Ellipse();
-            tempElip.Width = 10;
-            tempElip.Height = tempElip.Width;
+            
             string[] line;
             OpenFileDialog read = new OpenFileDialog();
             if (read.ShowDialog() == true)
@@ -65,7 +62,7 @@ namespace Project5
                                 tempLine.Points.Add(new Point(Convert.ToDouble(line[i]), Convert.ToDouble(line[i + 1])));
                             }
                             if (line[1] == "river")
-                                tempLine.Fill = new SolidColorBrush(Color.FromRgb(0, 0, 255));
+                                tempLine.Stroke = new SolidColorBrush(Color.FromRgb(0, 0, 255));
                             else if (line[1] == "road")
                                 tempLine.Stroke = new SolidColorBrush(Color.FromRgb(100, 100, 100));
                             else
@@ -74,6 +71,16 @@ namespace Project5
                         }
                         else
                         {
+
+                            Ellipse tempElip = new Ellipse();
+                            tempElip.Width = 10;
+                            tempElip.Height = tempElip.Width;
+                            Canvas.SetLeft(tempElip, Convert.ToDouble(line[2]) - 5);
+                            Canvas.SetTop(tempElip, Convert.ToDouble(line[3]) - 5);
+                            if (line[1] == "city")
+                                tempElip.Fill = new SolidColorBrush(Color.FromRgb(0,0,0));
+                            else
+                                tempElip.Fill = new SolidColorBrush(Color.FromRgb(150, 150, 0));
                             mapCanvas.Children.Add(tempElip);
                         }
 
